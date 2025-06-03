@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-  <html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <?php echo '<p>Hello, World!, in PHP</p>'; ?>
-  </body>
-</html>
+<!-- ICS2O-Unit6-04-PHP -->
+<html lang="en-ca">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Word reverser, in PHP" />
+  <meta name="keywords" content="mths, icd2o" />
+  <meta name="author" content="Lynn Lukose" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+  <link rel="manifest" href="./site.webmanifest" />
+  <title>Word reverser, in PHP</title>
+</head>
+
