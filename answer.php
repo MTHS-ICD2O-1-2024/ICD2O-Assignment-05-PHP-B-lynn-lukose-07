@@ -31,13 +31,29 @@
         <img src="./images/reverse.png" alt="Image of words backwards." />
       </div>
       <?php
-      // This PhP will reverse words. Input 
-      $originalString = $_GET["input-string"];
+      // input
+      $inputNumber = $_GET["number-one"];
+      $reversed = '';
 
-      $reversed = "";
+      // process
+      $length = strlen($inputNumber);
 
-      for ($counter = $originalString.length - 1; $counter >= 0; $counter--) {
-      $char = $originalString.charAt($counter);
-      $reversed = $reversed + $char; // Add each character to the reversed string
+      while ($length > 0) {
+        $lastDigit = substr($inputNumber, $length - 1, 1);
+        $reversed = $reversed . $lastDigit;
+        $length = $length - 1;
       }
 
+      // output
+      echo 'Your number was: ' . $inputNumber . '.<br>';
+      echo 'Your reversed number is: ' . $reversed . '<br>';
+      ?>
+  <div class="page-content-return">
+    <a href="./index.php">Return ...</a>
+  </div>
+    </main>
+  </div>
+</body>
+
+
+</html>

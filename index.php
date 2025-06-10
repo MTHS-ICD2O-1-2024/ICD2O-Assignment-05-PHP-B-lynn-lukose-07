@@ -43,11 +43,11 @@
           type="submit">
           Reverse!
         </button>
-          </div>
-        </form>
-      </main>
-    </div>
-  </body>
-  
-  </html>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+
+</html>
 
