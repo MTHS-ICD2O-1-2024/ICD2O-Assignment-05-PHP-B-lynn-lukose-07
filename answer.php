@@ -23,7 +23,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Word reverser, in JS</span>
+        <span class="mdl-layout-title">Word reverser, in PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -45,11 +45,11 @@
       }
 
       // output
-      echo 'Your reversed number is: ' . $reversed . '<br>';
+      echo 'Your reversed word is: ' . $reversed . '<br>';
       ?>
-  <div class="page-content-return">
-    <a href="./index.php">Return ...</a>
-  </div>
+      <div class="page-content-return">
+        <a href="./index.php">Return ...</a>
+      </div>
     </main>
   </div>
 </body>
