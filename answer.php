@@ -32,20 +32,19 @@
       </div>
       <?php
       // input
-      $inputNumber = $_GET["number-one"];
+      $originalString = $_GET["input-string"];
       $reversed = '';
 
       // process
-      $length = strlen($inputNumber);
+      $length = strlen($originalString);
 
       while ($length > 0) {
-        $lastDigit = substr($inputNumber, $length - 1, 1);
-        $reversed = $reversed . $lastDigit;
+        $lastLetter = substr($originalString, $length - 1, 1);
+        $reversed = $reversed . $lastLetter;
         $length = $length - 1;
       }
 
       // output
-      echo 'Your number was: ' . $inputNumber . '.<br>';
       echo 'Your reversed number is: ' . $reversed . '<br>';
       ?>
   <div class="page-content-return">
